@@ -1,0 +1,134 @@
+[06-Dec-2020 14:35:40 UTC] WordPress database error Incorrect DATETIME value: '0000%' for query SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND post_date >= '2020-11-23' AND post_date < '2021-01-25' AND post_date_gmt NOT LIKE '0000%'  ORDER BY wp_posts.post_date DESC  made by do_action('wp_ajax_edcal_posts'), WP_Hook->do_action, WP_Hook->apply_filters, EdCal->edcal_posts, query_posts, WP_Query->query, WP_Query->get_posts
+[06-Dec-2020 14:35:50 UTC] WordPress database error Incorrect DATETIME value: '0000%' for query SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND post_date >= '2020-04-20' AND post_date < '2022-05-16' AND post_date_gmt NOT LIKE '0000%'  ORDER BY wp_posts.post_date DESC  made by do_action('wp_ajax_edcal_posts'), WP_Hook->do_action, WP_Hook->apply_filters, EdCal->edcal_posts, query_posts, WP_Query->query, WP_Query->get_posts
+[06-Dec-2020 14:35:52 UTC] WordPress database error Incorrect DATETIME value: '0000%' for query SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND post_date >= '2020-06-22' AND post_date < '2020-08-10' AND post_date_gmt NOT LIKE '0000%'  ORDER BY wp_posts.post_date DESC  made by do_action('wp_ajax_edcal_posts'), WP_Hook->do_action, WP_Hook->apply_filters, EdCal->edcal_posts, query_posts, WP_Query->query, WP_Query->get_posts
+[06-Dec-2020 14:35:53 UTC] WordPress database error Incorrect DATETIME value: '0000%' for query SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND post_date >= '2020-08-03' AND post_date < '2020-08-31' AND post_date_gmt NOT LIKE '0000%'  ORDER BY wp_posts.post_date DESC  made by do_action('wp_ajax_edcal_posts'), WP_Hook->do_action, WP_Hook->apply_filters, EdCal->edcal_posts, query_posts, WP_Query->query, WP_Query->get_posts
+[12-Dec-2020 11:57:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\local site path\app\public\wp-includes\update.php on line 173
+[12-Dec-2020 11:57:00 UTC] PHP Stack trace:
+[12-Dec-2020 11:57:00 UTC] PHP   1. {main}() D:\local site path\app\public\wp-admin\update.php:0
+[12-Dec-2020 11:57:00 UTC] PHP   2. Plugin_Upgrader->install() D:\local site path\app\public\wp-admin\update.php:171
+[12-Dec-2020 11:57:00 UTC] PHP   3. Plugin_Upgrader->run() D:\local site path\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[12-Dec-2020 11:57:00 UTC] PHP   4. do_action() D:\local site path\app\public\wp-admin\includes\class-wp-upgrader.php:847
+[12-Dec-2020 11:57:00 UTC] PHP   5. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 11:57:00 UTC] PHP   6. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 11:57:00 UTC] PHP   7. wp_version_check() D:\local site path\app\public\wp-includes\class-wp-hook.php:285
+[12-Dec-2020 11:57:00 UTC] PHP   8. trigger_error() D:\local site path\app\public\wp-includes\update.php:173
+[12-Dec-2020 12:08:41 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, object given in D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php on line 336
+[12-Dec-2020 12:08:41 UTC] PHP Stack trace:
+[12-Dec-2020 12:08:41 UTC] PHP   1. {main}() D:\local site path\app\public\wp-admin\admin-ajax.php:0
+[12-Dec-2020 12:08:41 UTC] PHP   2. do_action() D:\local site path\app\public\wp-admin\admin-ajax.php:184
+[12-Dec-2020 12:08:41 UTC] PHP   3. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:08:41 UTC] PHP   4. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:08:41 UTC] PHP   5. YARPP_Admin->ajax_display() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:08:41 UTC] PHP   6. YARPP->display_related() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Admin.php:646
+[12-Dec-2020 12:08:41 UTC] PHP   7. YARPP_Cache_Tables->enforce() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1127
+[12-Dec-2020 12:08:41 UTC] PHP   8. YARPP_Cache_Tables->update() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:65
+[12-Dec-2020 12:08:41 UTC] PHP   9. YARPP_Cache_Tables->sql() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache_Tables.php:236
+[12-Dec-2020 12:08:41 UTC] PHP  10. YARPP_Cache_Tables->tax_criteria() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:200
+[12-Dec-2020 12:08:41 UTC] PHP  11. array_map() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:336
+[12-Dec-2020 12:08:41 UTC] PHP Warning:  join(): Invalid arguments passed in D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php on line 338
+[12-Dec-2020 12:08:41 UTC] PHP Stack trace:
+[12-Dec-2020 12:08:41 UTC] PHP   1. {main}() D:\local site path\app\public\wp-admin\admin-ajax.php:0
+[12-Dec-2020 12:08:41 UTC] PHP   2. do_action() D:\local site path\app\public\wp-admin\admin-ajax.php:184
+[12-Dec-2020 12:08:41 UTC] PHP   3. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:08:41 UTC] PHP   4. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:08:41 UTC] PHP   5. YARPP_Admin->ajax_display() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:08:41 UTC] PHP   6. YARPP->display_related() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Admin.php:646
+[12-Dec-2020 12:08:41 UTC] PHP   7. YARPP_Cache_Tables->enforce() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1127
+[12-Dec-2020 12:08:41 UTC] PHP   8. YARPP_Cache_Tables->update() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:65
+[12-Dec-2020 12:08:41 UTC] PHP   9. YARPP_Cache_Tables->sql() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache_Tables.php:236
+[12-Dec-2020 12:08:41 UTC] PHP  10. YARPP_Cache_Tables->tax_criteria() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:200
+[12-Dec-2020 12:08:41 UTC] PHP  11. join() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:338
+[12-Dec-2020 12:08:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), terms.term_taxonomy_id, null )) * 1,4) as score
+ from wp_posts 
+left join wp_' at line 1 for query insert into wp_yarpp_related_cache (reference_ID,ID,score) SELECT 196 as reference_ID, ID, ROUND(0 + (MATCH (post_content) AGAINST ('patient doctor patients world huge device wireless sensors blood project pulse temperature may doctors rate parameters vitals case serious monitoring')) * 3 + (MATCH (post_title) AGAINST ('health monitoring device pulse oximetry')) * 1 + count(distinct if( terms.term_taxonomy_id in (12), terms.term_taxonomy_id, null )) * 3 + (1 = 0) * 1 + count(distinct if( terms.term_taxonomy_id in (), terms.term_taxonomy_id, null )) * 1,4) as score
+ from wp_posts 
+left join wp_term_relationships as terms on ( terms.object_id = wp_posts.ID ) 
+ where post_status in ( 'publish', 'static' ) and ID != 196 and post_password =''  and post_type IN ('post')
+ group by ID 
+ having score >= 3.000000 and ID != 0 order by score desc limit 3 on duplicate key update date = now() made by do_action('wp_ajax_yarpp_display'), WP_Hook->do_action, WP_Hook->apply_filters, YARPP_Admin->ajax_display, YARPP->display_related, YARPP_Cache->enforce, YARPP_Cache_Tables->update
+[12-Dec-2020 12:13:32 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, object given in D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php on line 336
+[12-Dec-2020 12:13:32 UTC] PHP Stack trace:
+[12-Dec-2020 12:13:32 UTC] PHP   1. {main}() D:\local site path\app\public\index.php:0
+[12-Dec-2020 12:13:32 UTC] PHP   2. require() D:\local site path\app\public\index.php:17
+[12-Dec-2020 12:13:32 UTC] PHP   3. require_once() D:\local site path\app\public\wp-blog-header.php:19
+[12-Dec-2020 12:13:32 UTC] PHP   4. include() D:\local site path\app\public\wp-includes\template-loader.php:106
+[12-Dec-2020 12:13:32 UTC] PHP   5. astra_content_loop() D:\local site path\app\public\wp-content\themes\astra\single.php:27
+[12-Dec-2020 12:13:32 UTC] PHP   6. do_action() D:\local site path\app\public\wp-content\themes\astra\inc\core\theme-hooks.php:258
+[12-Dec-2020 12:13:32 UTC] PHP   7. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:13:32 UTC] PHP   8. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:13:32 UTC] PHP   9. Astra_Loop->loop_markup() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  10. do_action() D:\local site path\app\public\wp-content\themes\astra\inc\class-astra-loop.php:201
+[12-Dec-2020 12:13:32 UTC] PHP  11. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:13:32 UTC] PHP  12. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:13:32 UTC] PHP  13. Astra_Loop->template_parts_post() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  14. get_template_part() D:\local site path\app\public\wp-content\themes\astra\inc\class-astra-loop.php:120
+[12-Dec-2020 12:13:32 UTC] PHP  15. locate_template() D:\local site path\app\public\wp-includes\general-template.php:204
+[12-Dec-2020 12:13:32 UTC] PHP  16. load_template() D:\local site path\app\public\wp-includes\template.php:676
+[12-Dec-2020 12:13:32 UTC] PHP  17. require() D:\local site path\app\public\wp-includes\template.php:732
+[12-Dec-2020 12:13:32 UTC] PHP  18. astra_entry_content_single() D:\local site path\app\public\wp-content\themes\astra\template-parts\content-single.php:29
+[12-Dec-2020 12:13:32 UTC] PHP  19. do_action() D:\local site path\app\public\wp-content\themes\astra\inc\core\theme-hooks.php:443
+[12-Dec-2020 12:13:32 UTC] PHP  20. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:13:32 UTC] PHP  21. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:13:32 UTC] PHP  22. astra_entry_content_single_template() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  23. get_template_part() D:\local site path\app\public\wp-content\themes\astra\inc\template-parts.php:265
+[12-Dec-2020 12:13:32 UTC] PHP  24. locate_template() D:\local site path\app\public\wp-includes\general-template.php:204
+[12-Dec-2020 12:13:32 UTC] PHP  25. load_template() D:\local site path\app\public\wp-includes\template.php:676
+[12-Dec-2020 12:13:32 UTC] PHP  26. require() D:\local site path\app\public\wp-includes\template.php:732
+[12-Dec-2020 12:13:32 UTC] PHP  27. the_content() D:\local site path\app\public\wp-content\themes\astra\template-parts\single\single-layout.php:43
+[12-Dec-2020 12:13:32 UTC] PHP  28. apply_filters() D:\local site path\app\public\wp-includes\post-template.php:253
+[12-Dec-2020 12:13:32 UTC] PHP  29. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\plugin.php:212
+[12-Dec-2020 12:13:32 UTC] PHP  30. YARPP->the_content() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  31. YARPP->display_basic() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1496
+[12-Dec-2020 12:13:32 UTC] PHP  32. YARPP->display_related() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1059
+[12-Dec-2020 12:13:32 UTC] PHP  33. YARPP_Cache_Tables->enforce() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1127
+[12-Dec-2020 12:13:32 UTC] PHP  34. YARPP_Cache_Tables->update() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:65
+[12-Dec-2020 12:13:32 UTC] PHP  35. YARPP_Cache_Tables->sql() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache_Tables.php:236
+[12-Dec-2020 12:13:32 UTC] PHP  36. YARPP_Cache_Tables->tax_criteria() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:200
+[12-Dec-2020 12:13:32 UTC] PHP  37. array_map() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:336
+[12-Dec-2020 12:13:32 UTC] PHP Warning:  join(): Invalid arguments passed in D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php on line 338
+[12-Dec-2020 12:13:32 UTC] PHP Stack trace:
+[12-Dec-2020 12:13:32 UTC] PHP   1. {main}() D:\local site path\app\public\index.php:0
+[12-Dec-2020 12:13:32 UTC] PHP   2. require() D:\local site path\app\public\index.php:17
+[12-Dec-2020 12:13:32 UTC] PHP   3. require_once() D:\local site path\app\public\wp-blog-header.php:19
+[12-Dec-2020 12:13:32 UTC] PHP   4. include() D:\local site path\app\public\wp-includes\template-loader.php:106
+[12-Dec-2020 12:13:32 UTC] PHP   5. astra_content_loop() D:\local site path\app\public\wp-content\themes\astra\single.php:27
+[12-Dec-2020 12:13:32 UTC] PHP   6. do_action() D:\local site path\app\public\wp-content\themes\astra\inc\core\theme-hooks.php:258
+[12-Dec-2020 12:13:32 UTC] PHP   7. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:13:32 UTC] PHP   8. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:13:32 UTC] PHP   9. Astra_Loop->loop_markup() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  10. do_action() D:\local site path\app\public\wp-content\themes\astra\inc\class-astra-loop.php:201
+[12-Dec-2020 12:13:32 UTC] PHP  11. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:13:32 UTC] PHP  12. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:13:32 UTC] PHP  13. Astra_Loop->template_parts_post() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  14. get_template_part() D:\local site path\app\public\wp-content\themes\astra\inc\class-astra-loop.php:120
+[12-Dec-2020 12:13:32 UTC] PHP  15. locate_template() D:\local site path\app\public\wp-includes\general-template.php:204
+[12-Dec-2020 12:13:32 UTC] PHP  16. load_template() D:\local site path\app\public\wp-includes\template.php:676
+[12-Dec-2020 12:13:32 UTC] PHP  17. require() D:\local site path\app\public\wp-includes\template.php:732
+[12-Dec-2020 12:13:32 UTC] PHP  18. astra_entry_content_single() D:\local site path\app\public\wp-content\themes\astra\template-parts\content-single.php:29
+[12-Dec-2020 12:13:32 UTC] PHP  19. do_action() D:\local site path\app\public\wp-content\themes\astra\inc\core\theme-hooks.php:443
+[12-Dec-2020 12:13:32 UTC] PHP  20. WP_Hook->do_action() D:\local site path\app\public\wp-includes\plugin.php:484
+[12-Dec-2020 12:13:32 UTC] PHP  21. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\class-wp-hook.php:311
+[12-Dec-2020 12:13:32 UTC] PHP  22. astra_entry_content_single_template() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  23. get_template_part() D:\local site path\app\public\wp-content\themes\astra\inc\template-parts.php:265
+[12-Dec-2020 12:13:32 UTC] PHP  24. locate_template() D:\local site path\app\public\wp-includes\general-template.php:204
+[12-Dec-2020 12:13:32 UTC] PHP  25. load_template() D:\local site path\app\public\wp-includes\template.php:676
+[12-Dec-2020 12:13:32 UTC] PHP  26. require() D:\local site path\app\public\wp-includes\template.php:732
+[12-Dec-2020 12:13:32 UTC] PHP  27. the_content() D:\local site path\app\public\wp-content\themes\astra\template-parts\single\single-layout.php:43
+[12-Dec-2020 12:13:32 UTC] PHP  28. apply_filters() D:\local site path\app\public\wp-includes\post-template.php:253
+[12-Dec-2020 12:13:32 UTC] PHP  29. WP_Hook->apply_filters() D:\local site path\app\public\wp-includes\plugin.php:212
+[12-Dec-2020 12:13:32 UTC] PHP  30. YARPP->the_content() D:\local site path\app\public\wp-includes\class-wp-hook.php:287
+[12-Dec-2020 12:13:32 UTC] PHP  31. YARPP->display_basic() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1496
+[12-Dec-2020 12:13:32 UTC] PHP  32. YARPP->display_related() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1059
+[12-Dec-2020 12:13:32 UTC] PHP  33. YARPP_Cache_Tables->enforce() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Core.php:1127
+[12-Dec-2020 12:13:32 UTC] PHP  34. YARPP_Cache_Tables->update() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:65
+[12-Dec-2020 12:13:32 UTC] PHP  35. YARPP_Cache_Tables->sql() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache_Tables.php:236
+[12-Dec-2020 12:13:32 UTC] PHP  36. YARPP_Cache_Tables->tax_criteria() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:200
+[12-Dec-2020 12:13:32 UTC] PHP  37. join() D:\local site path\app\public\wp-content\plugins\yet-another-related-posts-plugin\classes\YARPP_Cache.php:338
+[12-Dec-2020 12:13:32 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), terms.term_taxonomy_id, null )) * 1,4) as score
+ from wp_posts 
+left join wp_' at line 1 for query insert into wp_yarpp_related_cache (reference_ID,ID,score) SELECT 196 as reference_ID, ID, ROUND(0 + (MATCH (post_content) AGAINST ('patient doctor patients world huge device wireless sensors blood project pulse temperature may doctors rate parameters vitals case serious monitoring')) * 3 + (MATCH (post_title) AGAINST ('health monitoring device pulse oximetry')) * 1 + count(distinct if( terms.term_taxonomy_id in (12), terms.term_taxonomy_id, null )) * 3 + (1 = 0) * 1 + count(distinct if( terms.term_taxonomy_id in (), terms.term_taxonomy_id, null )) * 1,4) as score
+ from wp_posts 
+left join wp_term_relationships as terms on ( terms.object_id = wp_posts.ID ) 
+ where post_status in ( 'publish', 'static' ) and ID != 196 and post_password =''  and post_type IN ('post')
+ group by ID 
+ having score >= 3.000000 and ID != 0 order by score desc limit 3 on duplicate key update date = now() made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astra/single.php'), astra_content_loop, do_action('astra_content_loop'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Loop->loop_markup, do_action('astra_template_parts_content'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Loop->template_parts_post, get_template_part, locate_template, load_template, require('/themes/astra/template-parts/content-single.php'), astra_entry_content_single, do_action('astra_entry_content_single'), WP_Hook->do_action, WP_Hook->apply_filters, astra_entry_content_single_template, get_template_part, locate_template, load_template, require('/themes/astra/template-parts/single/single-layout.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, YARPP->the_content, YARPP->display_basic, YARPP->display_related, YARPP_Cache->enforce, YARPP_Cache_Tables->update
